@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		017046821ADC6B915D3374FF /* AISuperImages.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AISuperImages.podspec; path = ../AISuperImages.podspec; sourceTree = "<group>"; };
+		017046821ADC6B915D3374FF /* AISuperImages.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AISuperImages.podspec; path = ../AISuperImages.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4E69083DD244CAB3E8CB76C2 /* Pods-AISuperImages_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AISuperImages_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AISuperImages_Example/Pods-AISuperImages_Example.release.xcconfig"; sourceTree = "<group>"; };
 		58EDCA4DDAA8BB7215CECE10 /* Pods-AISuperImages_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AISuperImages_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AISuperImages_Tests/Pods-AISuperImages_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AISuperImages_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AISuperImages_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,9 +42,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7EC9F7805E78658D321F3261 /* Pods-AISuperImages_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AISuperImages_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AISuperImages_Example/Pods-AISuperImages_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B1A50AEC626991FD962AE1FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B1A50AEC626991FD962AE1FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C11136C29D401D2726844335 /* Pods-AISuperImages_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AISuperImages_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AISuperImages_Tests/Pods-AISuperImages_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C2B896D53F3EEDEEDCAE2D7A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C2B896D53F3EEDEEDCAE2D7A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C9EA22995F91AA3C1B1CF826 /* Pods_AISuperImages_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AISuperImages_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F3D5D7DD4538EE9A2855C2 /* Pods_AISuperImages_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AISuperImages_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -560,6 +560,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AISuperImages_Example.app/AISuperImages_Example";
 			};
 			name = Debug;
 		};
@@ -577,6 +578,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AISuperImages_Example.app/AISuperImages_Example";
 			};
 			name = Release;
 		};

@@ -13,9 +13,9 @@
 		4D35162126B5D3A17E22717B74F8F085 /* AISuperImages-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A43852822B5A0E8136F7B45B65920A65 /* AISuperImages-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69BF260EF1069B6BA2826F5AA448540D /* Pods-AISuperImages_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD2F520041DEA7D901DC9A69E45D07A0 /* Pods-AISuperImages_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D01134BBCB7F50676E30BD268109974 /* Pods-AISuperImages_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB37C746B6BD1C509189F3C5AA9F364 /* Pods-AISuperImages_Tests-dummy.m */; };
-		980111B0506E73D8E36E1320F537F7D2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549CF6E826BB3CD1B1FBE8953C7A0C36 /* ReplaceMe.swift */; };
 		A18CA86209FF9CA440E9666F694E38A6 /* Pods-AISuperImages_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E5694DD4CC45F57181FB9CB3F6D8EF /* Pods-AISuperImages_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2F91DC28B7108AF3D9FD0401B5BC2DE /* Pods-AISuperImages_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A95F074109B0FB3F2AEA4F7E15CF631E /* Pods-AISuperImages_Example-dummy.m */; };
+		AE3EBC46205830450006A3AF /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3EBC45205830450006A3AF /* UIImageViewExtension.swift */; };
 		F04B80D64A72A7AF32F86F16E1F66E1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,33 +35,33 @@
 		1B37CA6CE3772955D3C2459D1DED5434 /* Pods-AISuperImages_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AISuperImages_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		20A5AF21668FC8E2BB138AB88A1A1B82 /* Pods-AISuperImages_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AISuperImages_Example.modulemap"; sourceTree = "<group>"; };
 		31C799596B8A98C877C1B5E74255B010 /* AISuperImages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AISuperImages.modulemap; sourceTree = "<group>"; };
-		321D1BB78FD6A8DB39AF4A8E0924C2AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		321D1BB78FD6A8DB39AF4A8E0924C2AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3E31FD2117F1199B7C8EB1A734AA53CA /* Pods-AISuperImages_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AISuperImages_Example-resources.sh"; sourceTree = "<group>"; };
-		549CF6E826BB3CD1B1FBE8953C7A0C36 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AISuperImages/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		5C2A161AD5CF79B91BEEC9AD9B512650 /* Pods-AISuperImages_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AISuperImages_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5F166736B25CF2A23C28CBFB5B3610E3 /* Pods-AISuperImages_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AISuperImages_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		64FE9EEDED66DC6F2E8C83EF946CAAE9 /* Pods-AISuperImages_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AISuperImages_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		65E45CECC3568337F2080FEE8CED8EBB /* AISuperImages-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AISuperImages-prefix.pch"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6C52789C1037A5314058C7E819224D56 /* Pods-AISuperImages_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AISuperImages_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		77C66EB80885D7D945E390039B95A559 /* AISuperImages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AISuperImages.framework; path = AISuperImages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77C66EB80885D7D945E390039B95A559 /* AISuperImages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AISuperImages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E7065A46C65E4CB3F27F85A190C637B /* Pods-AISuperImages_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AISuperImages_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8151C7B096A564A54512DCB5CE206E59 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9C89D383B8CA4A093AF7A32C15516C38 /* AISuperImages.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AISuperImages.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0BE1FD8DAC441ADF0A4B968BFA2635E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C89D383B8CA4A093AF7A32C15516C38 /* AISuperImages.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = AISuperImages.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0BE1FD8DAC441ADF0A4B968BFA2635E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A43852822B5A0E8136F7B45B65920A65 /* AISuperImages-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AISuperImages-umbrella.h"; sourceTree = "<group>"; };
-		A6DE3E2FB67F7937A046F42B72C8F3FD /* Pods_AISuperImages_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AISuperImages_Tests.framework; path = "Pods-AISuperImages_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DE3E2FB67F7937A046F42B72C8F3FD /* Pods_AISuperImages_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AISuperImages_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A95F074109B0FB3F2AEA4F7E15CF631E /* Pods-AISuperImages_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AISuperImages_Example-dummy.m"; sourceTree = "<group>"; };
 		ABB37C746B6BD1C509189F3C5AA9F364 /* Pods-AISuperImages_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AISuperImages_Tests-dummy.m"; sourceTree = "<group>"; };
 		AD2F520041DEA7D901DC9A69E45D07A0 /* Pods-AISuperImages_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AISuperImages_Example-umbrella.h"; sourceTree = "<group>"; };
+		AE3EBC45205830450006A3AF /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIImageViewExtension.swift; path = AISuperImages/Classes/UIImageViewExtension.swift; sourceTree = "<group>"; };
 		C93D6B85BD88B25574E201A05633D225 /* AISuperImages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AISuperImages-dummy.m"; sourceTree = "<group>"; };
 		CDD1D216084E9C17C4EFFCBE081B3FCA /* Pods-AISuperImages_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AISuperImages_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CEAC976389B59501E520A965D7D9621C /* Pods-AISuperImages_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AISuperImages_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		D0374D096FB24E0EC7EF2BF5739989BF /* Pods-AISuperImages_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AISuperImages_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D2D187598474BF6BF3169FD4DC62A39F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4D231FA10E17C8D6028BBD655B5B31B /* Pods-AISuperImages_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AISuperImages_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E79021753D61D4D698E6DAB25A099196 /* Pods_AISuperImages_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AISuperImages_Example.framework; path = "Pods-AISuperImages_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79021753D61D4D698E6DAB25A099196 /* Pods_AISuperImages_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AISuperImages_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF454C442A4C9BE42FCD241E489BE08 /* Pods-AISuperImages_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AISuperImages_Tests-resources.sh"; sourceTree = "<group>"; };
 		FE7910FBDE3CE9A473B23BF701593812 /* AISuperImages.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AISuperImages.xcconfig; sourceTree = "<group>"; };
 		FEB8CD291B1ADDD853D041548F87CEC6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,9 +98,9 @@
 		411A09FFEB9A6EDF5FBDBA53681AB9B8 /* AISuperImages */ = {
 			isa = PBXGroup;
 			children = (
-				549CF6E826BB3CD1B1FBE8953C7A0C36 /* ReplaceMe.swift */,
 				7E8A270EE7894D86B413F15477103A01 /* Pod */,
 				551A0D171FF90A688091F30B6BE054C8 /* Support Files */,
+				AE3EBC45205830450006A3AF /* UIImageViewExtension.swift */,
 			);
 			name = AISuperImages;
 			path = ../..;
@@ -310,6 +310,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					7D19BD0D1B1B239124B6BDB5390F2C7F = {
+						LastSwiftMigration = 0920;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -335,8 +340,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE3EBC46205830450006A3AF /* UIImageViewExtension.swift in Sources */,
 				45126FE9987ACF569543D3D487DF0DAB /* AISuperImages-dummy.m in Sources */,
-				980111B0506E73D8E36E1320F537F7D2 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,6 +631,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FE7910FBDE3CE9A473B23BF701593812 /* AISuperImages.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -657,6 +663,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FE7910FBDE3CE9A473B23BF701593812 /* AISuperImages.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
