@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AISuperImages_Example' do
+  pod 'AISuperImages', :path => '../'
+
+  target 'AISuperImages_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
