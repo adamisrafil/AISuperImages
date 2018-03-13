@@ -1,0 +1,22 @@
+{
+  "name": "AISuperImages",
+  "version": "0.1.0",
+  "summary": "A short description of AISuperImages.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/adamscout162/AISuperImages",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "adamscout162": "adam.israfil@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/adamscout162/AISuperImages.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AISuperImages/Classes/**/*"
+}

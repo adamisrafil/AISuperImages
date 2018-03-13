@@ -1,0 +1,16 @@
+PODS:
+  - AISuperImages (0.1.0)
+
+DEPENDENCIES:
+  - AISuperImages (from `../`)
+
+EXTERNAL SOURCES:
+  AISuperImages:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AISuperImages: a8559405f84d3424baec014ee910a1a2006a7006
+
+PODFILE CHECKSUM: 9d3b9bdc863a649c7f7a912f2d823e0aaeb9b027
+
+COCOAPODS: 1.4.0

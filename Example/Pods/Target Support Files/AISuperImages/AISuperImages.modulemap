@@ -1,0 +1,6 @@
+framework module AISuperImages {
+  umbrella header "AISuperImages-umbrella.h"
+
+  export *
+  module * { export * }
+}
